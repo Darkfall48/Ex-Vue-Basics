@@ -1,9 +1,10 @@
 <script setup>
+import { ref } from 'vue'
+
 import ShowTime from '@/cmps/show-time.vue'
 import CountDown from '@/cmps/count-down.vue'
 import WhoWatch from '@/cmps/who-watch.vue'
 import ShowCoords from '@/cmps/show-coords.vue'
-import { ref } from 'vue'
 
 const route = ref('count down')
 </script>
