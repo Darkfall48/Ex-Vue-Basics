@@ -32,6 +32,10 @@ const route = ref('count down')
     flex-direction: row;
     gap: 18px;
     place-content: center;
+    & button {
+      width: 130px;
+      height: 32px;
+    }
   }
   &-cmps {
     display: flex;
