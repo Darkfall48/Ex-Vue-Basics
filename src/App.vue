@@ -42,6 +42,7 @@ const route = ref('count down')
     flex-direction: column;
     place-content: center;
     place-items: center;
+    text-align: center;
   }
 }
 </style>

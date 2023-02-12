@@ -36,7 +36,7 @@ export default {
   created() {
     this.interval = setInterval(() => {
       this.clock = new Date()
-      console.log('Clock', this.clock)
+      // console.log('Clock', this.clock)
     }, 1000)
     this.currSeason = utilService.getSeason(this.clock)
     this.currMonth = utilService.getMonthName(this.clock)
