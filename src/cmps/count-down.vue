@@ -24,7 +24,7 @@ import Timer from './timer.vue'
 export default {
   data() {
     return {
-      audio: new Audio('src/assets/audio/timer/timer.mp3'),
+      audio: new Audio('/timer/timer.mp3'),
       isStarted: false,
       counter: 10,
       startedCounter: 10,
