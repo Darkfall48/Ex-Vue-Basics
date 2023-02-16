@@ -29,7 +29,7 @@ export default {
       //   currDay: '',
       //   currHour: null,
       //   currMinute: null,
-      imgUrl: `public/imgs/seasons/seasons.png`,
+      imgUrl: `/imgs/seasons/seasons.png`,
       isDark: false,
     }
   },
@@ -43,7 +43,7 @@ export default {
     this.currDay = utilService.getDayName(this.clock)
     this.currHour = this.clock.getHours()
     this.currMinute = this.clock.getMinutes()
-    this.imgUrl = `public/imgs/seasons/${this.currSeason.toLocaleLowerCase()}.png`
+    this.imgUrl = `/imgs/seasons/${this.currSeason.toLocaleLowerCase()}.png`
     //? For Debug:
     // this.imgUrl = `/imgs/seasons/winter.png`
     // this.imgUrl = `/imgs/seasons/autumn.png`
